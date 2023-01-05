@@ -4,8 +4,8 @@
 //Defina as posições iniciais da bola e do buraco.
 
 
-blockImageWidth = 5;
-blockImageHeight = 5;
+block_image_width = 5;
+block_image_height = 5;
 
 function loadImg(){
 	// Escreva o código para enviar a imagem da bola de golfe ao canvas
@@ -63,7 +63,7 @@ function myKeyDown(e)
 
 	function left()
 	{
-		if(ballX >5)
+		if(ball_X >5)
 		{
 			// Escreva o código para mover a bola para a esquerda.
 		}
@@ -71,7 +71,7 @@ function myKeyDown(e)
 
 	function right()
 	{
-		if(ballX <=1050)
+		if(ball_X <=1050)
 		{
 			// Escreva o código para mover a bola para a direita.
 		}
